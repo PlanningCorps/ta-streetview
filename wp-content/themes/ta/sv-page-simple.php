@@ -51,7 +51,7 @@
             <div id="mainblock">
               
               <h1>Fifth &amp; Sixth Forward</h1>
-              <p>Join the conversation: <a href="/fifth">Fifth Avenue</a> and <a href="/sixth">Sixth Avenue</a> | <a href="/">About the project</a>.<br/> </p> 
+              <p>Join the conversation: <a href="/fifth">5th Ave</a> and <a href="/sixth">6th Ave</a> | <a href="/">About the project</a> | <a href="https://secure3.convio.net/ta/site/Advocacy?cmd=display&page=UserAction&id=221&pw_id=2441">Sign the petition</a><br/> </p> 
               	<?php if ( have_posts() ) : ?>
 
             			<?php // twentyeleven_content_nav( 'nav-above' ); ?>
