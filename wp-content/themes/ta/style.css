@@ -35,6 +35,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 :focus {/* remember to define focus styles! */
 	outline: 0;
 }
+
+/* fonts */
+
+@font-face {
+  font-family: 'BryantWebMedium';
+  src: url("http://nyccentury.org/sites/default/files/fontyourface/local_fonts/BryantWebMedium-normal-normal/BryantWebMedium.eot");
+  src: local("Ä¿– ´¿Ÿ¨ÄŒŽ"), url("http://nyccentury.org/sites/default/files/fontyourface/local_fonts/BryantWebMedium-normal-normal/BryantWebMedium.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* styles */
+
 body {
 	background: #fff;
 	line-height: 1;
@@ -73,59 +86,106 @@ footer, header, hgroup, menu, nav, section {
 
 html, body {
   height: 100%;
-}
-.wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -4em;
-}
-
-.footer, .push {
-  height: 4em;
-}
-
-#mainblock {
-	margin: 0 34% 0 7.6%;
-	width: 58.4%;
-}
-
-p {
-display: block;
-font-family: BryantWebMedium, Helvetica, Arial, sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: normal;
-height: 100px;
-line-height: 20.796875px;
-margin-bottom: 24px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
+  font-family: 'BryantWebMedium', Helvetica, Arial, sans-serif;
 }
 
 h1 {
-  color: rgb(255, 102, 51);
-cursor: auto;
-display: inline;
-font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
-font-size: 25px;
-font-style: normal;
-font-weight: bold;
-height: auto;
-line-height: 20.796875px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-text-decoration: none;
-width: auto;
+  display: block;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  height: 20px;
+  padding-top: 30px;
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 24px;
+  max-width: 600px;
+  line-height: 1.25;
+}
+
+#mainblock {
+  width: 100%; 
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -200px;
+}
+
+.push {
+  height: 200px;
+}
+
+.footer {
+height: 200px;
+width: 100%;
+background-color: #EEEEEE;
+}
+
+.footer-content {
+  font-family: 'BryantWebMedium', Helvetica, Arial, sans-serif; 
+  font-style: normal; 
+  font-weight: normal;
+  width: 100%; 
+  max-width: 940px; 
+  position: relative; 
+  margin: 0 auto;
+}
+
+/* SVC box */
+.svc-box {
+  margin-bottom: 60px;
+}
+
+/* page tweaks */
+.entry-title {
+  display: none;
+}
+
+/* header */
+#signup {
+  float: right;
+}
+
+@media only screen and (max-width: 600px){
+  #get_involved { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #ta_logo { 
+    display: none;
+  }
+
+  #signup {
+    float: none;
+  }
+}
+
+/* table for the footer */
+
+td, th {
+  border-bottom: none;
+  margin: 0;
+  padding: 5px 7px;
+}
+
+tr {
+  vertical-align: top;
+}
+
+table {
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+  border-spacing: 0;
+  font-size: inherit;
 }
