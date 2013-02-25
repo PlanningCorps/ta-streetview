@@ -99,6 +99,26 @@ h1 {
   margin-bottom: 24px;
 }
 
+/* TA links */
+ 
+a {
+text-decoration:none;
+color: #FF6633;
+}
+a:link    {
+color: #FF6633;
+text-decoration: none;
+}
+
+a:hover    {
+color: #FF6633;
+text-decoration: underline;
+}
+
+a:visited {
+  
+}
+
 p {
   margin-bottom: 24px;
   max-width: 600px;

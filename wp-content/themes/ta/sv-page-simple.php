@@ -49,6 +49,9 @@
             <div id="navbar">
             </div>
             <div id="mainblock">
+              
+              <h1>Fifth &amp; Sixth Forward</h1>
+              <p>Join the conversation: <a href="/fifth">Fifth Avenue</a> and <a href="/sixth">Sixth Avenue</a> | <a href="/">About the project</a>.<br/> </p> 
               	<?php if ( have_posts() ) : ?>
 
             			<?php // twentyeleven_content_nav( 'nav-above' ); ?>
