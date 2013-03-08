@@ -40,8 +40,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 @font-face {
   font-family: 'BryantWebMedium';
-  src: url("/wp-content/themes/ta/fonts/BryantWebMedium.eot");
-  src: local("Ä¿– ´¿Ÿ¨ÄŒŽ"), url("/wp-content/themes/ta/fonts/BryantWebMedium.woff") format("woff");
+  src: url("http://56forward.transalt.org/wp-content/themes/ta/fonts/BryantWebMedium.eot");
+  src: local("Ä¿– ´¿Ÿ¨ÄŒŽ"), url("http://56forward.transalt.org/wp-content/themes/ta/fonts/BryantWebMedium.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
