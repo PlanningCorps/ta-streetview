@@ -132,8 +132,7 @@
                      var t=setTimeout("document.getElementById('status').innerHTML = ''; ", 5000);
                    } // end readyState == 4
                  } // end inner function
-
-                 theURL = "http://nyccentury.org/sites/all/modules/transalt_signup/signup.php?site=nyccentury.org&email=" + encodeURI(document.signup_form.email.value);
+                 theURL = "http://transalt.org/sites/all/modules/transalt_signup/signup.php?site=transalt.org&email=" + encodeURI(document.signup_form.email.value);
                  xmlHttp.open("GET", theURL, true);
                  xmlHttp.send(null);
                }
