@@ -173,6 +173,17 @@ background-color: #EEEEEE;
   float: right;
 }
 
+.header {
+  background-color: #EEEEEE;
+  height: 55px; 
+  border-top: 6px solid #F15D22;
+}
+
+.header-inner {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 @media only screen and (max-width: 600px){
   #get_involved { 
     display: none;

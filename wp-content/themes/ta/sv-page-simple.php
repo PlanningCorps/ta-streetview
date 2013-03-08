@@ -29,7 +29,7 @@
 
 <body>
         <div class="header">
-          <div style="line-height: 1.3em; font-family: 'BryantWebMedium', Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; background-color: #EEEEEE; height: 55px; border-top: 6px solid #F15D22;">
+          <div class="header-inner" style="line-height: 1.3em; font-family: 'BryantWebMedium', Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; background-color: #EEEEEE;">
               <div style="margin: 10px auto 0px;">
                 <a href="http://transalt.org" target="_blank" title="Transportation Alternatives"><img id="ta_logo" src="http://bikenyc.org/sites/BikeNYC.org/themes/ATBikemonth/css/images/transalt_smallt.png" style="padding: 8px; float: left; margin-top: -13px;"></a>
 
@@ -45,6 +45,7 @@
               </div>
           </div>
         </div>
+        
         <div class="wrapper">
             <div id="navbar">
             </div>
