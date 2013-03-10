@@ -252,6 +252,12 @@ strong {
   color:#444;
 }
 
+.dot-feedback li .lt250 {
+  display: block;
+  padding: 0.2em;
+  font-size: 0.75em;
+}
+
 .dot-feedback li .lt100 {
   display: block;
   padding: 0.2em;

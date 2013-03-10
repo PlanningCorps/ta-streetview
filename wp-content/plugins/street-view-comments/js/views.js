@@ -281,6 +281,8 @@ var Fitzgerald = Fitzgerald || {};
           charClass = 'lt50';
         } else if (attrs.desc.length < 100) {
           charClass = 'lt100';
+        } else if (attrs.desc.length < 250) {
+            charClass = 'lt250';
         }
 
         self.$list.append('<li data-index="'+i+'" class="'+ color +'"><span class="'+charClass+'">' +
