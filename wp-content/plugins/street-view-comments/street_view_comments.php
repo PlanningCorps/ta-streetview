@@ -122,8 +122,10 @@ function svc_show_mapper($atts){
         </label>
         <textarea id="dot-survey-desc" class="dot-survey-item" name="desc"></textarea>
         <label class="dot-survey-form-label" for="dot-survey-email">
-          Optionally, leave your email address so we can keep you informed about the project.</label><br/>
-        <input type="text" id="dot-survey-email" class="dot-survey-email" name="email" value="Your email address">
+          Your email address (<strong>required</strong>). </label><br/><br/>
+        <input type="text" id="dot-survey-email" class="dot-survey-item" name="email" value="Your email address"><br/><br/>
+        <label class="dot-survey-form-label"<small>Transportation Alternatives will never share your personal information with another organization. You can count on us to keep you up-to-date about news, actions and events in your neighborhood and specific to your interests.</small></label>  
+        
       </form>
       <ul class="dot-feedback"></ul>
       <div class="dot-feedback-nav">

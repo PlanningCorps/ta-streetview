@@ -174,10 +174,13 @@ var Fitzgerald = Fitzgerald || {};
       this.$saveBtn = $('#fitzgerald-dialog-save');
       this.$textarea = self.$('textarea');
       this.$counter = $('<div class="fitzgerald-counter">counter</div>').insertAfter(this.$textarea);
+      this.$emailarea = self.$('#dot-survey-email');
 
       this.$textarea.keyup(function() { self.updateCharCount.call(self); });
       this.$textarea.change(function() { self.updateCharCount.call(self); });
-
+      this.$emailarea.change(function() { self.updateCharCount.call(self); });
+      this.$emailarea.keyup(function() { self.updateCharCount.call(self); });
+      
       this.updateCharCount();
     },
     updateCharCount: function() {
@@ -193,12 +196,26 @@ var Fitzgerald = Fitzgerald || {};
       // Update counter
       self.$counter.html(available);
 
-      if (available < 0 || available === self.options.maxChars) {
+      
+      //look for valid email
+      var emailOk;
+      
+      function validateEmail() 
+      {
+          var re = /\S+@\S+\.\S+/;
+          return re.test(self.$emailarea.val());
+      }
+      
+      emailOk = validateEmail();
+
+      if (available < 0 || available === self.options.maxChars || !emailOk) {
         // Disable
         self.$saveBtn.attr('disabled', 'disabled');
       } else {
         // Enable
+        if (emailOk) {
         self.$saveBtn.removeAttr('disabled');
+        }
       }
     }
   });
