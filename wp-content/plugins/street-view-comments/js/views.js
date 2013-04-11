@@ -297,7 +297,7 @@ var Fitzgerald = Fitzgerald || {};
         if (attrs.desc.length < 50) {
           charClass = 'lt50';
         } else if (attrs.desc.length < 100) {
-          charClass = 'lt100';
+          charClass = 'lt250';
         } else if (attrs.desc.length < 250) {
             charClass = 'lt250';
         }
