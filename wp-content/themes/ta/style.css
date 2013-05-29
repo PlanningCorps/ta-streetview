@@ -219,3 +219,24 @@ table {
   border-spacing: 0;
   font-size: inherit;
 }
+
+a.navButton, a.navButton:hover {
+	background-color: rgb(241,93,34);
+	font-weight: bold;
+	color: #ffffff;
+	border: 0;
+	border-radius: 0.4em 0.4em 0.4em 0.4em;
+	font-family: 'BryantWebMedium', Helvetica, Arial;
+	font-size: 1.1em;
+	height: 35px;
+	cursor: pointer;
+	padding: 0.15em 0.6em;
+	text-transform: uppercase;
+	white-space: nowrap;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+.socialLinks {
+  margin-bottom: 1em;
+}
